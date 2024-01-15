@@ -254,6 +254,21 @@ spelling = ["pyenchant (>=3.2,<4.0)"]
 testutils = ["gitpython (>3)"]
 
 [[package]]
+name = "pylint-pytest"
+version = "1.1.7"
+description = "A Pylint plugin to suppress pytest-related false positives."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "pylint-pytest-1.1.7.tar.gz", hash = "sha256:7a38be02c014eb6d98791eb978e79ed292f1904d3a518289c6d7ac4fb4122e98"},
+    {file = "pylint_pytest-1.1.7-py3-none-any.whl", hash = "sha256:5d687a2f4b17e85654fc2a8f04944761efb11cb15dc46d008f420c377b149151"},
+]
+
+[package.dependencies]
+pylint = ">=2"
+pytest = ">=4.6"
+
+[[package]]
 name = "pytest"
 version = "7.4.4"
 description = "pytest: simple powerful testing with Python"
@@ -420,4 +435,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10"
-content-hash = "dd8f65fb6e866c1a1b04246f92bc7f04bd6783bde1fd1fab8b6463b9634781d3"
+content-hash = "3fc18ac522b9e6452aa5506d17858938cb48eb36a7e03521aa1486ba310ada41"
